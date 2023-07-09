@@ -2,66 +2,85 @@
 <html>
 <head>
     <title>Ameliore Foundation</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            color: #000000;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #ffffff;
-            color: #000000;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #000000 3px solid;
-        }
-        header a {
-            color: #000000;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #000000;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #cccccc;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px 0;
-            overflow: hidden;
-        }
-        section h1 {
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
-    </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #000000;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        background: #ffffff;
+        color: #000000;
+        padding: 20px 0;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    header a {
+        color: #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    header li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    header #branding {
+        float: left;
+    }
+
+    header #branding h1 {
+        margin: 0;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 15px;
+    }
+
+    header .highlight, header .current a {
+        color: #000000;
+        font-weight: bold;
+    }
+
+    header a:hover {
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    section h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    section p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+</style>
+
 </head>
 <body>
     <header>
@@ -84,7 +103,61 @@
         </div>
     </header>
 
-    <!-- The rest of your HTML content goes here -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to Ameliore Foundation</h1>
+            <p>Ameliore Foundation is a non-profit organization dedicated to improving the lives of individuals and communities around the world. Our mission is to provide education, healthcare, and economic opportunities to those who need them most.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Founded in 2000, the Ameliore Foundation has been working tirelessly to provide resources and opportunities to underprivileged communities. Our team is composed of dedicated professionals who are passionate about making a difference.</p>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h1>Our Work</h1>
+            <p>We focus on three main areas: education, healthcare, and economic development. Through our various initiatives, we've been able to impact thousands of lives and continue to strive for a better future for all.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h1>Education</h1>
+            <p>Our education programs aim to provide quality education to children in underprivileged communities. We believe that education is the key to breaking the cycle of poverty and strive to provide these opportunities to as many children as possible.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1>ICT Services</h1>
+            <p>We provide ICT services to help communities connect with the world and access opportunities. Our services include providing internet access, digital literacy training, and support for local ICT initiatives.</p>
+        </div>
+    </section>
+
+    <section id="involved">
+        <div class="container">
+            <h1>Get Involved</h1>
+            <p>There are many ways to get involved with the Ameliore Foundation. You can donate, volunteer, or even start your own fundraising campaign. Every little bit helps us make a bigger impact.</p>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h1>News & Events</h1>
+            <p>Stay up-to-date with the latest news and events from the Ameliore Foundation. From fundraising events to updates on our initiatives, there's always something happening.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or would like to get involved, please don't hesitate to contact us. You can reach us by email, phone, or through our social media channels.</p>
+        </div>
+    </section>
 
 </body>
 </html>
