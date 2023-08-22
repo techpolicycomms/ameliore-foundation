@@ -2,115 +2,133 @@
 <html>
 <head>
     <title>Ameliore Foundation</title>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-    * {
-        box-sizing: border-box;
-    }
+        * {
+            box-sizing: border-box;
+        }
 
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #ffffff;
-        color: #000000;
-        line-height: 1.6;
-    }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
 
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 0 40px;
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
 
-    header {
-        background: #ffffff;
-        color: #000000;
-        padding: 20px 0;
-        border-bottom: 1px solid #dddddd;
-    }
+        header {
+            background: #ffffff;
+            color: #000000;
+            padding: 20px 0;
+            border-bottom: 1px solid #dddddd;
+        }
 
-    header a {
-        color: #000000;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 16px;
-    }
+        header a {
+            color: #000000;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
 
-    header li {
-        display: inline-block;
-        margin: 0 15px;
-    }
+        header li {
+            display: inline-block;
+            margin: 0 15px;
+        }
 
-    header #branding {
-        float: left;
-    }
+        header #branding {
+            float: left;
+        }
 
-    header #branding h1 {
-        margin: 0;
-    }
+        header #branding h1 {
+            margin: 0;
+        }
 
-    header nav {
-        float: right;
-        margin-top: 15px;
-    }
+        header nav {
+            float: right;
+            margin-top: 15px;
+        }
 
-    header .highlight, header .current a {
-        color: #000000;
-        font-weight: bold;
-    }
+        header .highlight, header .current a {
+            color: #000000;
+            font-weight: bold;
+        }
 
-    header a:hover {
-        color: #cccccc;
-        font-weight: bold;
-    }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
 
-    section {
-        padding: 20px 0;
-    }
+        section {
+            padding: 20px 0;
+        }
 
-    section h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+        section h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
 
-    section p {
-        font-size: 16px;
-        line-height: 1.8;
-    }
-    footer {
-        background-color: #f8f9fa;
-        color: #212529;
-        text-align: center;
-        padding: 20px 0;
-        border-top: 1px solid #e5e5e5;
-    }
+        section p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
 
-    footer p {
-        margin: 0;
-    }
+        footer {
+            background-color: #f8f9fa;
+            color: #212529;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #e5e5e5;
+        }
 
-    footer ul {
-        list-style: none;
-        padding: 0;
-    }
+        footer p {
+            margin: 0;
+        }
 
-    footer ul li {
-        display: inline-block;
-        margin: 0 15px;
-    }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    footer a {
-        color: #212529;
-        text-decoration: none;
-    }
+        footer ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
 
-    footer a:hover {
-        color: #007bff;
-    }
-</style>
+        footer a {
+            color: #212529;
+            text-decoration: none;
+        }
 
+        footer a:hover {
+            color: #007bff;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            header #branding,
+            header nav {
+                float: none;
+                text-align: center;
+            }
+
+            header li {
+                display: block;
+                margin: 5px 0;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -131,70 +149,31 @@
         </div>
     </header>
 
-  <section id="home" class="container">
-    <h1>Home</h1>
-    <p>Welcome to Ameliore Foundation, a dedicated non-profit organization committed to making a difference in the world. Our mission is to ameliorate the lives of individuals and communities through various initiatives focused on environment conservation, organic farming, cultural heritage, women empowerment, and more. We believe in the power of collective action to bring about significant change. Explore our website to learn more about our work and how you can contribute. Join us in our mission to create a better world. <a href="#involved">Donate or volunteer today.</a></p>
-</section>
+    <section id="home" class="container">
+        <h1>Home</h1>
+        <p>Welcome to Ameliore Foundation, a dedicated non-profit organization committed to making a difference in the world. Our mission is to ameliorate the lives of individuals and communities through various initiatives focused on environment conservation, organic farming, cultural heritage, women empowerment, and more. We believe in the power of collective action to bring about significant change. Explore our website to learn more about our work and how you can contribute. Join us in our mission to create a better world. <a href="#involved">Donate or volunteer today.</a></p>
+    </section>
 
-<section id="about" class="container">
-    <h1>About Us</h1>
-    <p>Ameliore Foundation was established with a vision to create a sustainable and inclusive world. Our team comprises of dedicated individuals who are passionate about making a difference. Over the years, we have initiated and successfully executed numerous projects that have positively impacted the lives of many. Our work is driven by our mission to improve the quality of life and environment. We are proud of the difference we have made and are committed to continue our work. Read our <a href="#work">impact stories</a> to learn more about our work.</p>
-</section>
+    <section id="about" class="container">
+        <h1>About Us</h1>
+        <p>Ameliore Foundation was established with a vision to create a sustainable and inclusive world. Our team comprises of dedicated individuals who are passionate about making a difference. Over the years, we have initiated and successfully executed numerous projects that have positively impacted the lives of many. Our work is driven by our mission to improve the quality of life and environment. We are proud of the difference we have made and are committed to continue our work. Read our <a href="#work">impact stories</a> to learn more about our work.</p>
+    </section>
 
-<section id="work" class="container">
-    <h1>Our Work</h1>
-    <p>At Ameliore Foundation, we undertake a wide range of initiatives aimed at improving the environment, promoting organic farming, preserving cultural heritage, empowering women, and more. Each of our projects is designed to create a lasting impact and contribute to sustainable development. We believe in the power of action and are committed to making a difference through our work. Explore our <a href="#work">projects</a> to learn more about our initiatives and their impact.</p>
-</section>
+    <section id="work" class="container">
+        <h1>Our Work</h1>
+        <p>At Ameliore Foundation, we undertake a wide range of initiatives aimed at improving the environment, promoting organic farming, preserving cultural heritage, empowering women, and more. Each of our projects is designed to create a lasting impact and contribute to sustainable development. We believe in the power of action and are committed to making a difference through our work. Explore our <a href="#work">projects</a> to learn more about our initiatives and their impact.</p>
+    </section>
 
-<section id="education" class="container">
-    <h1>Education</h1>
-    <p>Education is a powerful tool for change. At Ameliore Foundation, we offer various educational initiatives including internship programmes, literature promotion, extended travel events, management consultancy, United Nations liaisoning, and policy advocacy. Our educational initiatives are designed to empower individuals with the knowledge and skills needed to contribute to their communities and the world. Learn more about our <a href="#education">educational initiatives</a> and how you can participate.Call for Research is on, please see more details at <a href="research.html">page</p>
-</section>
+    <section id="education" class="container">
+        <h1>Education</h1>
+        <p>Education is a powerful tool for change. At Ameliore Foundation, we offer various educational initiatives including internship programmes, literature promotion, extended travel events, management consultancy, United Nations liaisoning, and policy advocacy. Our educational initiatives are designed to empower individuals with the knowledge and skills needed to contribute to their communities and the world. Learn more about our <a href="#education">educational initiatives</a> and how you can participate. Call for Research is on, please see more details at <a href="research.html">page</a></p>
+    </section>
 
-<section id="services" class="container">
-    <h1>ICT Services</h1>
-    <p>Ameliore Foundation provides a range of ICT services including cyber security, child online protection, consultancy services, and development of rural economy. Our ICT services are designed to leverage technology for the benefit of communities. We believe in the power of technology to drive change and are committed to using it to improve lives. Learn more about our <a href="#services">ICT services</a>.</p>
-</section>
+    <section id="services" class="container">
+        <h1>ICT Services</h1>
+        <p>Ameliore Foundation provides a range of ICT services including cyber security, child online protection, consultancy services, and development of rural economy. Our ICT services are designed to leverage technology for the benefit of communities. We believe in the power of technology to drive change and are committed to using it to improve lives. Learn more about our <a href="#services">ICT services</a>.</p>
+    </section>
 
-<section id="involved" class="container">
-    <h1>Get Involved</h1>
-    <p>Join us in our mission to create a better world. There are many ways you can contribute to our work at Ameliore Foundation. You can make a donation, volunteer your time and skills, or apply for an internship. Your support can make a significant difference in the lives of individuals and communities. Learn more about how you can <a href="#involved">get involved</a>.</p>
-</section>
-
-<section id="news" class="container">
-    <h1>News & Events</h1>
-    <p>Stay updated with the latest news and events from Ameliore Foundation. We regularly organize events and initiatives that you can participate in. Check out our <a href="research.html">research news and events</a> section for the latest updates.</p>
-</section>
-
-<section id="contact" class="container">
-    <h1>Contact Us</h1>
-    <p>We would love to hear from you. If you have any queries, suggestions, or would like to get involved with our work, please get in touch with us. You can reach us at our email address, phone number, or through our contact form. Visit our <a href="contact-us.html">contact us</a> section for more information.</p>
-</section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Ameliore Foundation. All rights reserved.</p>
-            <ul>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </footer>
-<script type="text/javascript" id="zsiqchat">
-        var $zoho=$zoho || {};
-        $zoho.salesiq = $zoho.salesiq || {
-            widgetcode: "bed84a915241f12f06d0e7dda79176b77272a8f9ccb6b9b104566da0c6b6fc9f38f3831a3e32ba999a4d40f52444faeb", 
-            values:{},
-            ready:function(){}
-        };
-        var d=document;s=d.createElement("script");
-        s.type="text/javascript";
-        s.id="zsiqscript";
-        s.defer=true;
-        s.src="https://salesiq.zoho.com/widget";
-        t=d.getElementsByTagName("script")[0];
-        t.parentNode.insertBefore(s,t);
-    </script>
-
-</body>
-</html>
+    <section id="involved" class="container">
+        <h1>Get Involved</h1>
+        <p>Join us in our mission to create a better world. There are many ways you can contribute to our work at Ameliore Foundation. You can make a donation
